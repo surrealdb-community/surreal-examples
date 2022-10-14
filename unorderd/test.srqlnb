@@ -1,0 +1,1 @@
+[{"kind":1,"language":"markdown","value":"Count rows"},{"kind":2,"language":"surrealql","value":"CREATE person CONTENT {name: 'me'};\r\nCREATE person CONTENT {name: 'myself'};"}]
