@@ -23,7 +23,6 @@ const nav = []
 const sidebar = {}
 
 for (const f of folder) {
-  console.log(f)
   nav.push({text: f, link: `/${f}/`})
   const rootList = []
   const lists = []
@@ -44,7 +43,7 @@ for (const f of folder) {
   }
   sidebar[f] = [
     ...(rootList.length <=1 ? [] : [{
-      text: 'Root',
+      text: f,
       items: rootList
     }]),
     ...lists
